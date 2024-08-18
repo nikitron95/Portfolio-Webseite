@@ -18,7 +18,7 @@
         -> Click on tab (Color Conversion)
         -> Copy the color mode (HSL)
   */
-  --hue: 230;
+  --hue: 560;
   --first-color: hsl(var(--hue), 55%, 55%);
   --first-color-light: hsl(var(--hue), 55%, 65%);
   --first-color-alt: hsl(var(--hue), 50%, 50%);
@@ -368,7 +368,6 @@ img {
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   color: var(--text-color);
   transition: transform 0.4s;
-  
 }
 
 .work__title {
@@ -468,11 +467,6 @@ img {
 .contact__container {
   row-gap: 4rem;
 }
-
-/* .container__group,
-.contact__form {
-  gap: 1rem;
-} */
 
 .contact__form {
   position: relative;
@@ -651,7 +645,7 @@ img {
   .work__container {
     grid-template-columns: repeat(2, 350px);
   }
-  .work__link{
+  .work__link {
     height: 350px;
   }
 
