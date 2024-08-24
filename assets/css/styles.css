@@ -182,8 +182,8 @@ img {
     top: 0;
     right: -100%;
     background-color: hsl(var(--hue), 70%, 40%, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-background-filter: blur(16px);
+    backdrop-filter: blur(36px);
+    -webkit-background-filter: blur(36px);
     width: 80%;
     height: 100%;
     padding: 7rem 3rem;

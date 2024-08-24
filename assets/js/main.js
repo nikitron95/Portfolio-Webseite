@@ -117,9 +117,9 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(".home__data, .skills, .contact__container")
-sr.reveal(".home__img", { delay: 600 })
-sr.reveal(".home__scroll", { delay: 800 })
-sr.reveal(".section__title", { delay: 200 });
-sr.reveal(".work__card", { interval: 100 })
+sr.reveal(".home__img", { delay: 400 })
+sr.reveal(".home__scroll", { delay: 250 })
+sr.reveal(".section__title", { delay: 100 })
+sr.reveal(".work__card", { interval: 50 })
 sr.reveal(".about__content", { origin: "right" })
 sr.reveal(".about__img", { origin: "left" })
